@@ -1,0 +1,56 @@
+body {
+    background-color: #202020;
+    padding: 80px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.titulo {
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 48px;
+    color: #f8981d;
+    text-align: center;
+    letter-spacing: 4px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #f8981d;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+p {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #A9DD99;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+}
+p.quote {
+    margin-top: 2em;
+    margin-left: 2em;
+    color: #d8dd99;
+
+}
+span {
+    color: #A9FF10;
+    font-size: 1.2em;
+}
+
+.marco {
+    text-align: center;
+    color: #DDD;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border:3px solid #f8981d;
+    padding: 5px;
+    border-radius: 50%;
+}
+cite {
+    color: #f84a14;
+}
