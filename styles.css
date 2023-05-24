@@ -33,6 +33,12 @@ p.quote {
     color: #d8dd99;
 
 }
+p.date {
+    text-align:center;
+    color: #DDD;
+    font-family: "Tsukimi Rounded", sans-serif;
+
+}
 span {
     color: #A9FF10;
     font-size: 1.2em;
