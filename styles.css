@@ -1,19 +1,26 @@
 body {
+    margin-top: 0px;
     background-color: #202020;
     padding: 80px;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 20px;
+}
+.new-post {
+    margin: 5px;
+    padding: 20px;
+    border-bottom: 2px solid #f8981d;
+    border-top: 2px solid #f8981d;
 }
 .titulo {
     font-family: 'Tsukimi Rounded', sans-serif;
-    font-size: 48px;
+    font-size: 3em;
     color: #f8981d;
     text-align: center;
     letter-spacing: 4px;
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 1.7em;
     color: #f8981d;
     text-align: center;
     line-height: 1.2;
@@ -30,14 +37,15 @@ p {
 p.quote {
     margin-top: 2em;
     margin-left: 2em;
-    color: #d8dd99;
+    color: #DDD;
+    font-family: "Tsukimi Rounded", sans-serif;
 
 }
 p.date {
     text-align:center;
     color: #DDD;
     font-family: "Tsukimi Rounded", sans-serif;
-
+    margin-top: 10px;
 }
 span {
     color: #A9FF10;
@@ -48,7 +56,15 @@ span {
     text-align: center;
     color: #DDD;
 }
-img {
+img.portada {
+    display: block;
+	width: 100%;
+	margin: auto;
+	animation-name: image;
+	animation-duration: 10s;
+}
+
+img.circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,4 +75,35 @@ img {
 }
 cite {
     color: #f84a14;
+}
+
+.anim-container {
+	margin: auto;
+	width: 90%,
+}
+
+/*.end-post {
+    width: 90%;
+    height: 2px;
+    margin:10px auto 10px auto;
+
+    background-color: #FFC533;
+}*/
+#bottom {
+	height: 2px;
+	width: 100%;
+	background-color: #f8981d;
+
+	animation-name: line;
+	animation-duration: 1s;
+	}
+
+@keyframes image {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes line {
+	0% {width: 0%;}
+	100% {width: 100%;}
+	{animation-timing-function: ease;}
 }
