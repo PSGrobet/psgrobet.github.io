@@ -65,6 +65,8 @@ p.ref {
 p.quote {
     margin-left: 1em;
     color: #DDD;
+    font-family: "Tsukimi Rounded", sans-serif;
+    font-style: italic;
 }
 p.date {
     text-align:center;
